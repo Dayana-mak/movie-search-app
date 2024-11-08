@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Поиск фильмов</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+  <div class="container">
+    <section class="movie-search">
+      <div class="movie-search__wrapper">
+        <input id="searchInput" class="movie-search__input" type="text" placeholder="Название фильма">
+        <button id="searchButton" class="movie-search__button">Найти</button>
+      </div>
+    </section>
+    <section class="movie-results">
+      <ul id="movieList" class="movie-results__list"></ul>
+    </section>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
